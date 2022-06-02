@@ -1,24 +1,24 @@
 # rsschool-резюме
 
-## Виталий Лиморев
+## Vitali Limarau
 
-### Контакты
-* **Местонахождение:** Минск, Беларусь
-* **Телефон:** +375297856750
-* **Электронная почта** limwit@mail.ru
+### Contacts
+* **Location:** Minsk, Belarus
+* **Phone:** +375297856750
+* **Email** limwit@mail.ru
 * **GitHub:** limwit 
 
-### Обо мне
-У меня хорошие навыки межличностного общения, я отлично работаю в команде и очень хочу учиться и развивать новые навыки.
-Я надежен и надежен и часто ищу новые обязанности в широком диапазоне областей занятости.
+### About Me
+I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.
+I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.
 
-### Навыки и умения
+### Skills
 * **HTML**
 * **CSS/SASS**
 * **JavaScript**
 * **Git**
 
-### Пример кода
+### Code Example
 ```javascript
 const func = (num) => {
   if (num > 0) {
@@ -27,10 +27,10 @@ const func = (num) => {
   return num + 1;
 };
 ```
-### Образование
-* **Вуз:** Московский юридический институт
-* **Курсы:**
-  * Лекции CS50
+### Education
+* **University:**  Belarusian National Technical University, Civil Engineering major
+* **Courses:**
+  * CS50 lectures
   * FreeCodeCamp
   * It academy
 
