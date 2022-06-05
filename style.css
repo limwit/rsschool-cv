@@ -1,3 +1,37 @@
-body{
-    margin: 0 auto;
+.container{
+    width:1200px;
+    margin:0 auto;
+}
+
+.h1{
+    font-size: 42px;
+    line-height: 44px;
+    font-weight: 900;
+}
+
+.h2{
+    font-size: 36px;
+    line-height: 24px;
+    font-weight: 900;
+    color:#bdbdbd;
+    margin-bottom: 20px;
+}
+
+.year{
+    font-size: 42px;
+    line-height: 44px;
+    font-weight: 900;
+}
+
+.link{
+    font-size: 22px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #000090;
+}
+
+.text{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 34px;
 }
