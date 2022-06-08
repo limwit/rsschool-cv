@@ -1,0 +1,307 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+ }
+ 
+ html,
+ body,
+ div,
+ span,
+ h1,
+ h2,
+ h3,
+ p,
+ pre,
+ a,
+ address,
+ code,
+ img,
+ strong,
+ ul,
+ li,
+ footer,
+ header,
+ nav,
+ section {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     vertical-align: baseline;
+ }
+ 
+ footer, 
+ header, 
+ nav, 
+ section {
+     display: block;
+ }
+ 
+ html,
+ body {
+    height: 100%;
+ }
+ 
+ body {
+    min-width: 320px;
+     line-height: 1.2;   
+ }
+ 
+ ul {
+     padding-left: 1.4em;
+     list-style: square;
+ }
+ 
+ :root {
+    --colr: #13c950;
+ }
+ 
+ .wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    min-height: 100%;
+    margin: 10px auto;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 5px -5px 10px rgba(0, 0, 0, 0.4);
+ }
+ 
+ header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--colr);
+    border-radius: 5px 5px 1px 0;
+ }
+ 
+ .photo {
+    min-width: 100px;
+    min-height: 200px;
+    margin: 10px 20px;
+ }
+ 
+ .photo img {
+    border: var(--colr) solid 1px;
+    border-radius: 100px;
+ }
+ 
+ .profile-title {
+    max-width: 960px;
+    margin: 10px auto;
+    font-family: Baskerville, Palatino, sans-serif;   
+    text-align: center;
+    color: white;   
+ }
+ 
+ .profile-name {
+    padding: 50px 20px 5px 20px;    
+    letter-spacing: 0.4em;
+    word-spacing: 1em;
+    border-bottom: white solid 2px;  
+ }
+ 
+ .profile-name h1 {
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+ }
+ 
+ .profile-job {
+    padding: 10px 10px 0 10px;
+    letter-spacing: 0.6em;
+    word-spacing: 1.2em;   
+ }
+ 
+ .profile-job h3 {
+    font-size: 1em;
+    font-weight: 400;
+ }
+ 
+ ul.nav {
+    padding: 0 5px 10px 0;
+    margin-left: 0;
+    margin-top: 10px;   
+    font-family: Baskerville, Palatino, sans-serif;
+    font-size: 18px;
+    text-align: right;
+    list-style: none;
+    border-bottom: 5px solid var(--colr);   
+ }
+ 
+ .nav li {
+    display: inline;
+    margin-right: 5px;
+    margin-left: 15px;   
+ }
+ 
+ .nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--colr);
+ }
+ 
+ .nav a:hover {
+    color: black;
+ }
+ 
+ .main {
+    display: flex;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .main section {
+    max-width: 580px;
+    width: calc(50% - 20px);
+    min-height: 200px;
+    margin: 10px;   
+    border-bottom: 1px solid var(--colr);
+ }
+ 
+ .main section h2 {
+    padding: 15px 0 5px 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    word-spacing: 1em; 
+    color: var(--colr);
+ }
+ 
+ .main ul {
+    margin: 5px 0 0 30px;
+    list-style-type: circle;
+ }
+ 
+ .main li {
+    padding-top: 5px;   
+ }
+ 
+ #about-me p,
+ #english p,
+ #code pre {
+    margin: 5px 30px 0 30px;
+    padding-top: 5px;
+ }
+ 
+ #code pre {
+    font-size: 14px;
+ }
+ 
+ #experience a {
+    color: black;
+    text-decoration: none;
+ }
+ 
+ #english {
+    min-height: auto;
+    margin-bottom: 20px;
+    border-bottom: none;
+ }
+ 
+ footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;   
+    font-family: Arial, Helvetica, sans-serif;   
+    color: black;
+    background-color: var(--colr);
+ }
+ 
+ .footer-container {
+    display: flex;
+ }
+ 
+ .year {
+    padding-top: 16px;
+    font-size: 18px;
+ }
+ 
+ .github {
+    margin-left: 20px;
+    padding-top: 12px;
+    padding-left: 60px;
+    background-image: url(../img/25231.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+ }
+ 
+ .github a {
+    font-size: 26px;
+    color: black;
+    text-decoration: none;
+ }
+ 
+ .rsschool img {
+    height: 50px;
+ }
+ 
+ @media (max-width: 810px) {
+    header {   
+       flex-direction: column;
+    }
+ 
+    .photo {
+       margin: 10px auto;
+    }
+ 
+    .profile-name {
+       padding: 20px 20px 5px 20px;
+       letter-spacing: 0.3em;
+    }
+    
+    .profile-job {
+       letter-spacing: 0.5em;
+       word-spacing: 1em;
+    }
+ }
+ 
+ @media (max-width: 744px) {
+    .main {
+       flex-direction: column;
+    }
+ 
+    .main section {
+       width: calc(100% - 100px);
+       margin: 10px 50px;
+    }
+    .year {
+       padding-top: 14px;
+       font-size: 14px;
+    }
+ 
+    .github {
+       padding-top: 7px;
+       padding-left: 55px;
+       background-size: 40px 40px;
+    }
+ 
+    .github a {
+       font-size: 22px;
+    }
+    
+    .rsschool img {
+       height: 40px;
+    }
+ }
+ 
+ @media (max-width: 654px) {
+    ul.nav {
+       text-align: center;
+    }
+ }
+ 
+ @media (max-width: 400px) {
+    footer {
+       flex-direction: column;
+       align-items: center;
+    }
+ 
+    .github {
+       height: 40px;
+    }
+ 
+    .rsschool {
+       margin-top: 15px;
+    }
+ }
