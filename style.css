@@ -76,9 +76,9 @@
  }
  
  .photo {
-    min-width: 100px;
-    min-height: 200px;
-    margin: 10px 20px;
+   min-width: 125px;
+   min-height: 25px;
+   margin: 10px 20px;
  }
  
  .photo img {
