@@ -34,6 +34,6 @@ const func = (num) => {
   * FreeCodeCamp
   * It academy
 
-  # Английский 
+  # English
     **A2**
 

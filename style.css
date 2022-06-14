@@ -55,7 +55,7 @@
  }
  
  :root {
-    --colr: #8a7d8f;
+    --colr: #13c950;
  }
  
  .wrapper {
@@ -72,11 +72,11 @@
     display: flex;
     flex-wrap: wrap;
     background-color: var(--colr);
-    border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 1px 0;
  }
  
  .photo {
-    min-width: 200px;
+    min-width: 100px;
     min-height: 200px;
     margin: 10px 20px;
  }
